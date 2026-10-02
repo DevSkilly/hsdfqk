@@ -1,0 +1,20 @@
+name: ArcanaAddons
+version: 1.0.0
+main: net.arcana.addons.ArcanaAddons
+api-version: '1.20'
+
+author: Arcana
+description: Custom item framework for Arcana Network
+
+commands:
+  arcanaitems:
+    description: Manage ArcanaItems
+    usage: /arcanaitems <give|list|reload>
+    aliases:
+      - aitems
+      - ai
+
+permissions:
+  arcanaitems.admin:
+    description: Access ArcanaItems administration commands
+    default: op

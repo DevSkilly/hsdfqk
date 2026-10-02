@@ -1,0 +1,34 @@
+settings:
+
+  debug: false
+
+  language: fr
+
+  item-loading:
+    recursive: true
+
+  security:
+    validate-item-version: true
+
+  abilities:
+    enabled: true
+
+  durability:
+    enabled: true
+
+resource-pack:
+  enabled: true
+
+  # URL publique du ZIP
+  url: "http://localhost/arcana/ArcanaItems.zip"
+
+  # Emplacement WAMP
+  wamp-output:
+  enabled: true
+  path: "C:/wamp64/www/arcana/ArcanaItems.zip"
+  # Envoi automatique aux joueurs
+  send-on-join: true
+  # Le joueur doit-il obligatoirement accepter le pack ?
+  required: false
+  # SHA-1 généré automatiquement
+  sha1: ""

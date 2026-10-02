@@ -1,0 +1,32 @@
+id: ruby_sword
+
+version: 1
+
+material: DIAMOND_SWORD
+
+display:
+  name: "&cÉpée de Rubis"
+
+  lore:
+    - "&7Une épée légendaire."
+    - ""
+    - "&c⚔ Dégâts : &f12"
+    - "&c✦ Clic droit : &fRuby Slash"
+    - ""
+    - "&8ID: ruby_sword"
+
+model-data: 10001
+
+stats:
+  damage: 12.0
+  attack-speed: 1.6
+
+durability:
+  enabled: true
+  max: 500
+
+abilities:
+
+  right-click:
+    id: ruby_slash
+    cooldown: 5s
